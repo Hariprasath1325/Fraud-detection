@@ -37,12 +37,15 @@ MySQL Database
 ## 📂 Project Structure
 
 src/
-└── com/fraud/simulation/
+└── com/
+└── fraud/
+└── simulation/
 ├── Main.java
 ├── Transaction.java
 ├── TransactionGenerator.java
 ├── TransactionDAO.java
-├── DatabaseConnection.java
+└── DatabaseConnection.java
+
 .gitignore
 
 ---
@@ -125,8 +128,12 @@ Verify stored transactions:
 
 SELECT * FROM transactions;
 
-📊 Sample Output
+---
+
+## 📊 Sample Output
+
 Transaction #1
+
 Type: DEPOSIT
 Sender: ACC25263279
 Receiver: ACC18757318
@@ -136,7 +143,6 @@ Device: Laptop
 Risk Score: 0
 Fraud: false
 Time: 2026-02-13T14:09:00.322853
------------------------------
 
 ---
 

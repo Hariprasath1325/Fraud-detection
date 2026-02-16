@@ -36,17 +36,19 @@ MySQL Database
 
 ## 📂 Project Structure
 
+```
 src/
 └── com/
-└── fraud/
-└── simulation/
-├── Main.java
-├── Transaction.java
-├── TransactionGenerator.java
-├── TransactionDAO.java
-└── DatabaseConnection.java
+    └── fraud/
+        └── simulation/
+            ├── Main.java
+            ├── Transaction.java
+            ├── TransactionGenerator.java
+            ├── TransactionDAO.java
+            └── DatabaseConnection.java
 
 .gitignore
+```
 
 ---
 
@@ -132,18 +134,22 @@ SELECT * FROM transactions;
 
 ## 📊 Sample Output
 
+```
+===== DIGITAL BANK FRAUD SIMULATION ENGINE =====
+
 Transaction #1
-
-Type: DEPOSIT
-Sender: ACC25263279
-Receiver: ACC18757318
-Amount: 34057.0
-Location: Chennai
-Device: Laptop
-Risk Score: 0
-Fraud: false
-Time: 2026-02-13T14:09:00.322853
-
+----------------------------------------
+Type           : DEPOSIT
+Sender         : ACC25263279
+Receiver       : ACC18757318
+Amount         : 34057.0
+Location       : Chennai
+Device         : Laptop
+Risk Score     : 0
+Fraud          : false
+Time           : 2026-02-13T14:09:00.322853
+----------------------------------------
+```
 ---
 
 🏆 Learning Outcomes
